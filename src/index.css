@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100dvw;
+  height: 100dvh;
+}
+:root {
+  --font-main: 'Poppins', serif;
+  --color-dark-blue: #011126;
+  --color-light-blue: #08678c;
+  --color-white: #f1f1f1;
+}
+body {
+  font-family: var(--font-main);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appWrapper {
+  width: 400px;
+  height: auto;
+  padding: 12px 20px 20px 20px;
+  border-radius: 20px;
+  background-color: var(--color-dark-blue);
+  box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 24px;
+}
+.appHeading {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  opacity: 0.8;
+}
+.cityName {
+  font-size: 24px;
+  font-weight: 700;
+}
+.weatherIcon {
+  width: 140px;
+  aspect-ratio: 1;
+}
+.faIcon {
+  width: 140px;
+  height: 140px;
+  color: var(--color-white);
+}
+.weatherDescription {
+  font-size: 20px;
+  font-weight: 400;
+}

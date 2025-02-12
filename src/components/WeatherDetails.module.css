@@ -1,0 +1,11 @@
+.detailsWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 16px;
+}
+.staticDescription {
+  font-size: 14px;
+  font-weight: 300;
+}
